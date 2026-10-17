@@ -1,0 +1,60 @@
+﻿using System;
+class BasicDataTypes
+{
+    static void Main()
+    {
+        int age = 20;
+        float height = 5.8f;
+        double salary = 25000.50;
+        char grade = 'A';
+        string name = "Rahul";
+        bool isStudent = true;
+        Console.WriteLine("-----Basic Data Types and variables----");
+        Console.WriteLine("Age        :" + age);
+        Console.WriteLine("Height     :" + height);
+        Console.WriteLine("Salary     :" + salary);
+        Console.WriteLine("Grade      :" + grade);
+        Console.WriteLine("Name       :" + name);
+        Console.WriteLine("IsStudent :" + isStudent);
+        int a = 20;
+        int b = 10;
+
+        Console.WriteLine("\n----Operators---");
+        Console.WriteLine("Addition       :" + (a + b));
+        Console.WriteLine("Subtraction    :" + (a - b));
+        Console.WriteLine("Multiplication :" + (a * b));
+        Console.WriteLine("Division       :" + (a / b));
+        Console.WriteLine("Modulas        :" + (a % b));
+        Console.WriteLine("\n----Relational Operators----");
+        Console.WriteLine("a == b :" + (a == b));
+        Console.WriteLine("a != b :" + (a != b));
+        Console.WriteLine("a > b  : "+ (a > b));
+        Console.WriteLine("a < b  :" + (a < b));
+        bool x = true;
+        bool y = false;
+        Console.WriteLine("\n----Logical operators----");
+        Console.WriteLine("x && y :" +( x&& y));
+        Console.WriteLine("x || y :" + (x || y));
+        Console.WriteLine("!x :" + ( !x ));
+    }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    
